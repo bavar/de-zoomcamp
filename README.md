@@ -16,6 +16,10 @@ The inside the interactive terminal of the running python container:
 pip -V
 ```
 
+## Question 2
+
+Implied by the given `docker-compose.yml` configuration.
+
 ## Question 3
 
 ```
