@@ -6,6 +6,18 @@ volumes:
   kestra_data:
     driver: local
 
+# Add gemini API key to kestra KV store from docker
+#services:
+#  kestra:
+#    environment:
+#      KESTRA_CONFIGURATION: |
+#        kestra:
+#          ai:
+#            type: gemini
+#            gemini:
+#              model-name: gemini-2.5-flash
+#              api-key: ${GEMINI_API_KEY}
+
 services:
   pgdatabase:
     image: postgres:18
